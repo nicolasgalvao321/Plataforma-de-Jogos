@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela com 4 Células</title>
+
+    <script>
+        function mostrarPagina(url) {
+            document.getElementById("frame").src = url;
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #3d7ddf; /* Cor de fundo para a página */
+        }
+        table {
+            border-collapse: collapse; /* Remove espaços entre as células */
+        }
+        td {
+            border: 2px solid #000; /* Borda preta */
+            text-align: center; /* Centraliza o texto horizontalmente */
+            vertical-align: middle; /* Centraliza o texto verticalmente */
+        }
+
+        .quadrado-menor { /* 80x80 pixels */
+            width: 50px;
+            height: 50px;
+            background-color: rgb(21, 19, 36);
+        }
+
+        .retangulo-horizontal { /* 160x80 pixels */
+            width: 160px;  
+            height: 80px;
+            background-color: rgb(21, 19, 36);
+        }
+
+        .retangulo-vertical { /* 80x160 pixels */
+            width: 80px;
+            height: 160px;
+            background-color: rgb(154, 223, 255);
+        }
+
+        .quadrado-maior { /* 1000x700 pixels */
+            width: 1000px;
+            height: 700px;
+            padding: 0;
+        }
+
+        iframe { /* Estilo para o iframe e colocar a página HTML */
+            width: 100%;
+            height: 100%;
+            border: none;
+            
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr> 
+        <td class="quadrado-menor">  
+            <img src="file:///C:/Users/Aluno/Downloads/925b9f8d-0553-46c6-aa9e-21b2ec18e59c%20(1).png" alt=" Logo" width="80" height="80">
+        <td class="retangulo-horizontal">
+             <table style="width: 100%; height: 100%; border-collapse: collapse;"> <!-- Tabela interna -->
+                <div style="display: flex; align-items: center; justify-content: center; gap: 10px;"> <!-- Div para alinhar imagem e texto -->
+  <tr>
+    <td>
+      <div style="display: flex; align-items: center;">
+  <img src="https://i.pinimg.com/originals/65/a7/d5/65a7d53c0c921de180b400a2a6892381.gif" 
+       alt="gif animado" 
+       width="600" 
+       height="300">
+  <span style="font-size: 30px; font-weight: bold; color: #ffffff; margin-left: 20px;">
+    Plataforma de Jogos
+  </span>
+</div>
+
+    </div>
+
+    </td>
+
+  </tr>
+</table>
+
+
+
+            
+        </td>
+    </tr>
+
+    <tr>
+        <td class="retangulo-vertical"> <!-- Links para as páginas HTML -->
+            <a href="#" onclick="mostrarPagina('https://nicolasgalvao321.github.io/JogoDaVelha/')">
+                Jogo da Velha
+            </a><br><br>
+
+            <a href="#" onclick="mostrarPagina('https://nicolasgalvao321.github.io/Jogo-do-Carrinho/')">
+                Jogo do Carrinho
+            </a><br><br>
+
+            <a href="#" onclick="mostrarPagina('https://nicolasgalvao321.github.io/Arkanoid/')">
+                Arkanoid
+            </a>
+        </td>
+
+        <td class="quadrado-maior">
+            <iframe id="frame"></iframe>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
