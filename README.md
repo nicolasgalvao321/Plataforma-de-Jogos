@@ -10,7 +10,7 @@ Uma plataforma web interativa desenvolvida com HTML, CSS e JavaScript, que reún
 - Navegação dinâmica sem recarregar a página (uso de iframe)  
 - Jogos desenvolvidos manualmente  
 - Formulário de feedback integrado  
-- Layout responsivo (funciona somente em desktop)  
+- Layout responsivo (funciona no celular e desktop)  
 
 ---
 
