@@ -31,7 +31,9 @@ https://nicolasgalvao321.github.io/Plataforma-de-Jogos/
 
 ## Tecnologias utilizadas
 
-- HTML  
+- HTML
+- CSS
+- JS
 
 ---
 
