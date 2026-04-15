@@ -68,4 +68,4 @@ Estudante de Ensino Médio Técnico em Informática
 
 ---
 
-⭐ Se gostou do projeto, deixe uma estrela no repositó
+⭐ Se gostou do projeto, deixe uma estrela no repositório
